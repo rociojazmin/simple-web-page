@@ -1,0 +1,271 @@
+header, nav, article, footer {
+    box-shadow: #aaa 1px 1px 5px 0px;
+    border-radius: 0.625em;
+}
+
+footer, .article, .article_aside1, .article_aside2 {
+    background-color: #fff;
+}
+
+nav li a, .article h2, .article span, footer li a, .tittle {
+    color: #f90;}
+
+body, main, aside, footer {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav li a, footer li a, .p_footer a {
+    text-decoration: none;
+}
+
+header h1, footer li a, .tittle {
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+body {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background: #999;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 20px 0;
+    color: #666666;
+}
+
+#container {
+    background-color: #ececec;
+    width: 60em;
+    padding: 1.25em;
+    overflow: hidden;
+    box-shadow: 0 0 20px 0 #777;
+    border-radius: 10px;
+}
+/* Header */
+
+header {
+    height: 6.25em;
+    background: #f90 url(img/pinitos.gif) no-repeat right bottom;
+    padding: 0.938em;
+    margin-bottom: 0.625em;
+}
+
+header h1 {
+    padding-left: 13px;
+    border-left: 13px solid #fff;
+
+    font-size: 1.875em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+header h2 {
+    color: #f3e359;
+
+}
+
+/* Navbar */
+
+nav {
+    background: linear-gradient(to right, #fff 50%, #f90 70%);
+    overflow: hidden;
+    margin-bottom: 1.25em;
+}
+
+nav ul {
+    width: 25em;
+    height: 0.625em;
+}
+
+nav li a {
+    font-weight: bold;
+    font-size: 0.938em;
+    padding: 14px;
+    padding-right: 25px;
+    padding-left: 25px;
+    transition: all .7s ease;
+}
+
+nav li a:hover{
+    background-color: #FF9900;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+/* main*/
+
+main section {
+    flex: 1;
+}
+
+.article {
+    padding: 0.938em;
+    margin-bottom: 0.625em;
+}
+
+.article p {
+    font-size: 0.85em;
+    line-height: 1.563em;
+}
+
+.article h2 {
+    font-size: 1.025em;
+    margin: 0 auto;
+}
+
+/* estilos de la tabla */
+
+table, tr, th, td {
+    border-collapse: collapse;
+    border: 0.2px solid #666;
+}
+
+th, td {
+    padding: 0.594em;
+}
+
+th p {
+    font-weight: bold;
+    font-size: 0.938em;
+    margin: 0%;
+}
+
+td {
+    text-align: center;
+}
+
+caption {
+    margin-top: 1.188em;
+    font-size: 1.05em;
+}
+
+
+/* aside */
+aside {
+    width: 22.125em;
+    flex-direction: column;
+}
+
+.article_aside1, .article_aside2 {
+    margin-left: 1.25em;
+    margin-bottom: 1.25em;
+}
+
+.article_aside1 img {
+    width: 100%;
+    margin: 0%;
+}
+
+.article_aside1 figure {
+    margin: 1.063em;
+}
+
+.article_aside2 {
+    padding: 1.063em;
+}
+
+.align {
+    text-align: right;
+    color: #888888;
+    font-size: 0.85em;
+}
+
+.article_aside2 ul {
+    width: 6.25em;
+    padding: 0%;
+    margin-bottom: 0%;
+    margin-top: 1.875em;
+}
+
+.article_aside2 a {
+    display: block;
+    height: 2.5em;
+    text-indent: -9999px;
+    width: 1.563em;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.facebook {
+    background-image: url('img/facebook.png');
+}
+
+.twitter {
+    background-image: url('img/twitter.png');
+}
+
+.linkedin {
+    background-image: url('img/linkedin.png');
+}
+
+/* Footer */
+
+footer {
+    justify-content: space-between;
+}
+
+footer ul, footer li {
+    margin: 0%;
+}
+
+footer ul {
+    width: 30%;
+    padding: 0.313em;
+}
+
+footer li {
+    padding-right: 1em;
+    padding-left: 0.625em;
+
+}
+
+footer li a {
+    font-size: smaller;
+}
+
+.borde {
+    border-right: 1px solid #f90;
+}
+
+.p_footer {
+    margin-right: 1.063em;
+    text-align: end;
+    width: 580px;
+    font-size: small;
+    font-style: italic;
+}
+
+.p_footer a {
+    color: #666;
+}
+
+/* clases */
+
+.tittle {
+    padding-left: 6px;
+    border-left: 7px solid #f90;
+
+    font-size: 1.188em;
+    margin: 0 auto;
+}
+
+.separar_iconos{
+    justify-content: space-between;
+}
+
+footer ul li a{
+    color: #FF9900;
+    font-size: 14px;
+    transition: all .7s ease;
+}
+footer ul li a:hover{
+    text-decoration: underline;
+}
